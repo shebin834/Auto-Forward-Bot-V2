@@ -38,7 +38,7 @@ class Bot(Client):
         logging.info(text)
 
         # Check if database URI is default broken one
-        if "mongodb+srv://chhjgjkkjhkjhkjh@cluster0.xowzpr4.mongodb.net/" in Config.DATABASE_URI:
+        if "mongodb+srv://shebinkallankunnan_db_user:kGcXRIsMv00mHieF@forwardcluster.lwso62u.mongodb.net/myDatabase?retryWrites=true&w=majority" in Config.DATABASE_URI:
              logging.error("You have not set the DATABASE environment variable. The bot will not function correctly.")
              return
 
